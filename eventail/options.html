@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         .title {
+             padding: 3px 5px;
+             width: 150px;
+             font-weight: bold;
+             float: left;
+             text-align: right;
+         }
+         .value {
+         }
+         .c {
+             padding: 3px;
+         }
+         #a {
+             float: right;
+             margin: 10px;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="c">
+            <div class="title">Sensu API Host </div>
+            <div class="value"><input type="text" id="sensuApiHost" placeholder="http://127.0.0.1"></div>
+        </div>
+        <div class="c">
+            <div class="title">Sensu API Port </div>
+            <div class="value"><input type="text" id="sensuApiPort" placeholder="4567"></div>
+        </div>
+        <div class="c">
+            <div class="title">Uchiwa Host </div>
+            <div class="value"><input type="text" id="uchiwaHost" placeholder="http://127.0.0.1"></div>
+        </div>
+        <div class="c">
+            <div class="title">Uchiwa Port </div>
+            <div class="value"><input type="text" id="uchiwaPort" placeholder="3000"></div>
+        </div>
+        <div class="c">
+            <div class="title">datacenter </div>
+            <div class="value"><input type="text" id="datacenter" placeholder="Datacenter"></div>
+        </div>
+        <div id="a">
+            <span id="status"></span>
+            <button id="save">Save</button>
+        </div>
+        <script src="eventail.js"></script>
+        <script src="options.js"></script>
+    </body>
+</html>

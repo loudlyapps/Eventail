@@ -1,0 +1,36 @@
+{
+    "name": "Eventail",
+    "version": "0.0.1",
+    "description": "Sensu monitor for Chrome extension.",
+    "icons": {
+        "48": "images/icon48.png",
+        "128": "images/icon128.png",
+        "32": "images/icon32.png",
+        "64": "images/icon64.png",
+        "19": "images/icon19.png"
+    },
+    "options_ui": {
+        "page": "eventail/options.html",
+        "chrome_style": true
+    },
+    "background": {
+        "scripts": [
+            "js/jquery.min.js",
+            "eventail/eventail.js",
+            "eventail/background.js"
+        ]
+    },
+    "browser_action": {
+      "default_icon": {
+        "19": "images/icon19.png",
+        "38": "images/icon38.png"
+      },
+      "defaut_title": "Eventail",
+      "default_popup": "eventail/popup.html"
+    },
+    "permissions": [
+        "http://*/",
+        "storage"
+    ],
+    "manifest_version": 2
+}
