@@ -1,9 +1,3 @@
-// var sensuApiHost = "http://172.24.50.7";
-// var sensuApiPort = "4567";
-// var uchiwaHost = "http://172.24.50.7";
-// var uchiwaPort = "3000";
-// var datacenter = "hiraoka";
-
 function getOptions(cb) {
     chrome.storage.sync.get({
         sensuApiHost: "",
