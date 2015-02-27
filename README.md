@@ -4,6 +4,8 @@ Eventail is a Google Chrome Extension for Sensu server monitor.
 
 Eventail はSensuサーバーを監視するためのGoogleChrome拡張機能です。
 
+![screenshot](https://raw.githubusercontent.com/loudlyapps/Eventail/master/screenshot.png)
+
 ## Installation
 
 [Chrome Web Store]()
